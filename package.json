@@ -1,8 +1,12 @@
 {
-    "name": "king--gc-theme",
+    "name": "king-gc-theme",
     "displayName": "King! GC theme",
     "description": "Color theme based on King GC! color palette.",
     "version": "0.0.1",
+    "license": "MIT",
+    "publisher": "nosesisaid",
+    "identifier": "com.nosesisaid.king-gc-theme",
+    "icon": "images/icon.png",
     "engines": {
         "vscode": "^1.67.0"
     },
@@ -17,5 +21,9 @@
                 "path": "./themes/kingtheme-color-theme.json"
             }
         ]
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/nosesisaid/king-gc-theme"
     }
 }
